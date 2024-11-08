@@ -1,0 +1,104 @@
+body {
+    background-color: #d2d1d1b9;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: "RobotoCond";
+}
+
+@font-face {
+    font-family: "RobotoCond";
+    src: url(/assets/fonts/Roboto-Condensed.ttf);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1%;
+    border-radius: 20px;
+}
+
+#root a img {
+    width: 30%;
+    cursor: pointer;
+}
+
+#root a:has(img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#root input {
+    width: 60%;
+    height: 5vh;
+    font-size: 1em;
+    padding: 5px 60px;
+    border-radius: 2em;
+}
+
+#root label {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%;
+}
+
+#root button {
+    width: 60%;
+    height: 5vh;
+    font-size: 1em;
+    padding: 5px 60px;
+    border-radius: 2em;
+    background-color: #141827;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin-top: 2%;
+    border: 1px solid black;
+}
+
+#root a {
+    color: #000;
+}
+
+.password-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.password-label p {
+    margin-left: 7%;
+}
+
+.password-field input {
+    width: 90%;
+    height: 5vh;
+    font-size: 1em;
+    padding: 5px 60px;
+    border-radius: 2em;
+    margin-left: 8%
+}
+
+.password-field #eye {
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    flex-direction: column      ;
+}
+
+.forgeta{
+    text-align: center;
+    margin-top: -86%;
+}
+
